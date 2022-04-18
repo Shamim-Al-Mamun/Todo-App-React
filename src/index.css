@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ff6347e6 !important;
+}
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  background-color: hwb(27 10% 28%) !;
+  background-color: lch(67.5345% 42.5 258.2);
+  background-color: lab(62.2345% -34.9638 47.7721);
+}
+button:focus,
+input:focus,
+textarea:focus {
+  box-shadow: none !important;
+}
+.app {
+  background-color: rgb(165, 42, 42, 0.1);
+  text-align: center;
+  margin: 0.5rem;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+/* NewTodo */
+.form-field {
+  margin-top: 1rem;
+  display: flex;
+}
+.form-field label {
+  flex-basis: 20%;
+}
+.form-field input {
+  flex-basis: 70%;
+  border: none;
+  border-radius: 0.5rem;
+  margin-left: 2px;
+  height: 2rem;
+}
+.form-field textarea {
+  flex-basis: 70%;
+  resize: none;
+  border: none;
+  border-radius: 0.5rem;
+  margin-left: 2px;
+}
+::placeholder {
+  font-size: small !important;
+}
+
+/* Todos */
+.todos {
+  width: 100%;
+  min-height: 10vh;
+}
+
+/* todo */
+.todo {
+  background-color: rgb(128, 128, 128, 0.5);
+  /* transition: 2s ease-out !important; */
+  overflow: hidden;
+}
+.trash {
+  color: rgb(255, 0, 0, 0.9);
+  font-size: x-large !important;
+}
+
+/* Modal */
+.modal {
+  color: rgb(255, 99, 71, 0.9);
+}
