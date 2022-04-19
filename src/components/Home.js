@@ -38,7 +38,7 @@ const Home = () => {
           <NewTodo onAddTodo={handleAddTodo} />
           {todos && <Todos todos={todos} onRemoveTodo={handleRemoveTodo} />}
           <Button
-            className="w-100"
+            className="w-25"
             variant="warning"
             type="submit"
             onClick={handleShow}

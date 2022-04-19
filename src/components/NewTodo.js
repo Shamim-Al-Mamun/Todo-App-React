@@ -73,7 +73,7 @@ const NewTodo = (props) => {
         </div>
       </Form.Group>
       {error && <p className="small text-danger mb-2">{error}</p>}
-      <Button className="w-100" variant="outline-warning" type="submit">
+      <Button className="w-25" variant="outline-warning" type="submit">
         Add Todo
       </Button>
     </Form>
