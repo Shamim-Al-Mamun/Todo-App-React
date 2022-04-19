@@ -1,11 +1,10 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 
 import Todo from "./Todo";
 
 const Todos = (props) => {
   return (
-    <Container className="bg-dark text-warning rounded mb-3 p-1 overflow-auto todos">
+    <div className="bg-dark text-warning rounded mb-3 p-1 overflow-auto todos">
       {!props.todos.length ? <p className="small">Currently no todos</p> : ""}
       {props.todos.map((todo) => (
         <Todo
@@ -15,7 +14,7 @@ const Todos = (props) => {
           onRemoveTodo={props.onRemoveTodo}
         />
       ))}
-    </Container>
+    </div>
   );
 };
 

@@ -18,11 +18,19 @@ textarea:focus {
   box-shadow: none !important;
 }
 .app {
+  text-align: center;
+  margin: 0.5rem;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+}
+.appBody {
   background-color: rgb(165, 42, 42, 0.1);
   text-align: center;
   margin: 0.5rem;
   padding: 0 0.5rem 0.5rem 0.5rem;
   border-radius: 0.5rem;
+  min-width: 300px !important;
+  max-width: 1000px !important;
 }
 
 /* NewTodo */

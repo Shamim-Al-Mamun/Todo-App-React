@@ -1,6 +1,5 @@
 import React from "react";
-import { Modal } from "react-bootstrap";
-import { Button } from "react-bootstrap";
+import { Modal, Button } from "react-bootstrap";
 
 function ClearALLModal(props) {
   console.log(props);
